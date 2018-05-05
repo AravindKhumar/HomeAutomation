@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    >
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switch5"
+        android:checked="false"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="15dp"
+        android:text="Plug"
+        android:textStyle="bold"
+        android:trackTint="@android:color/holo_orange_light" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switch4"
+        android:checked="false"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="15dp"
+        android:text="Fan 2"
+        android:textStyle="bold"
+        android:trackTint="@android:color/holo_orange_light" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switch3"
+        android:checked="false"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="15dp"
+        android:text="Fan 1"
+        android:textStyle="bold"
+        android:trackTint="@android:color/holo_orange_light" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switch2"
+        android:checked="false"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="15dp"
+        android:text="Light 3"
+        android:textStyle="bold"
+        android:trackTint="@android:color/holo_orange_light" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switch1"
+        android:checked="false"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="15dp"
+        android:text="Light 2"
+        android:textStyle="bold"
+        android:trackTint="@android:color/holo_orange_light" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="68dp"
+        android:checked="false"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="15dp"
+        android:splitTrack="false"
+        android:text="Light 1"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        android:trackTint="@android:color/holo_orange_light" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginStart="66dp"
+        android:text="Master ON" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_toEndOf="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:text="Master OFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toEndOf="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:paddingHorizontal="40dp"
+        android:text="0*C"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switch6"
+        android:layout_marginTop="26dp"
+        android:paddingHorizontal="40dp"
+        android:text="TEMPERATURE :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+</android.widget.RelativeLayout>
